@@ -1,3 +1,24 @@
+/**
+ *Initialize a deck of cards.
+ * Shuffle the deck of cards.
+ * Deal the top card from the deck and create two MemoryCard objects with the same suit and face name.
+ * Add the two MemoryCard objects to the list of cards in the game.
+ * Repeat steps 3-4 until all cards have been dealt and added to the list.
+ * Shuffle the list of cards in the game.
+ * Flip all cards over to show the back of the card.
+ * Initialize the ImageViews for each card on the game board.
+ * Set the image for each ImageView to be the back of a card.
+ * Add a click listener to each ImageView that calls the flipCard() method.
+ * When a card is flipped, check if it is the first or second card flipped.
+ * If it is the first card, set the firstCard variable to the MemoryCard object associated with the ImageView.
+ * If it is the second card, set the secondCard variable to the MemoryCard object associated with the ImageView.
+ * Check if the two MemoryCard objects match.
+ * If they match, increment the number of matches and set the matched variable for both MemoryCard objects to true.
+ * If they don't match, flip both cards back over to show the back of the card.
+ * Update the labels for the number of correct guesses and total guesses made.
+ * Repeat steps 11-17 until all pairs have been matched.
+ * End the game.
+ */
 package com.example.memorygame;
 
 import javafx.event.ActionEvent;

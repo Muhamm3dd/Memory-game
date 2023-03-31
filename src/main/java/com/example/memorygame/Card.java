@@ -1,3 +1,18 @@
+/**
+ * The code defines a public class called "Card" in the package "com.example.memorygame".
+ * The class has two private instance variables: "suit" and "faceName".
+ * The class has a constructor that takes in a suit and faceName as parameters and sets them using the corresponding setter methods.
+ * The class has getter and setter methods for the suit and faceName variables.
+ * The class has a method called "getValidSuits" that returns a list of valid suits.
+ * The class has a method called "getValidFaceNames" that returns a list of valid face names.
+ * The class has a toString method that returns a string representation of the card.
+ * The class has a getValue method that returns the numerical value of the card.
+ * The class has a method called "getImage" that returns an image that represents the card.
+ * The class has a method called "getBackOfCardImage" that returns an image of the back of the card.
+ */
+
+
+
 package com.example.memorygame;
 
 import javafx.scene.image.Image;
@@ -25,7 +40,6 @@ public class Card {
 
     /**
      * valid suits are "hearts","diamonds","clubs","spades"
-     * @param suit
      */
     public void setSuit(String suit) {
         suit = suit.toLowerCase();

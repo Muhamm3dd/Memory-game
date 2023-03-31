@@ -1,3 +1,19 @@
+/**
+ * Define a package called "com.example.memorygame".
+ * Import Application, FXMLLoader, Scene, Stage, and IOException.
+ * Define a public class called "Main" that extends Application.
+ * Override the "start" method and pass in a Stage parameter.
+ * Create a new FXMLLoader object and load the "memory game.fxml" file.
+ * Create a new Scene object and pass in the loaded FXML file and dimensions.
+ * Set the title of the stage to "Memory Game" and set the scene to the created Scene object.
+ * Show the stage.
+ * Define a public static "main" method that calls the "launch" method.
+ * End the class definition.
+ */
+
+
+
+
 package com.example.memorygame;
 
 import javafx.application.Application;
